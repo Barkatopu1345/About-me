@@ -1,0 +1,297 @@
+body{
+    margin:0;
+    font-family:Helvetica;
+}
+
+
+.home{
+    background-color: #292929;
+    height: 700px;
+}
+
+#name{
+    font-family: 'Calligraffitti', cursive;
+    font-weight:bolder;
+    font-size: 50px;
+    color: black;
+    text-shadow: 1px 1px 5px white;
+    padding-top:300px;
+}
+h1, h2, h3, h4{
+    padding:0;
+    margin:0;
+}
+
+.margin--around{
+    margin:0;
+}
+.paddin-around{
+    padding: 0;
+}
+
+.list{
+    margin: 0;
+    list-style: none;
+}
+.home ul a, .about-section ul a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+/*******Display section********/
+.displa--inline{
+    display: inline;
+}
+
+/*******Display section********/
+
+
+
+/*******Color section********/
+.color--orange{
+    color: #F7484E;
+}
+.color--white{
+    color: white;
+}
+
+.color--black{
+    color:black;
+}
+
+/*******Color section********/
+
+
+
+/*******padding section********/
+.padding--10px{
+    padding:10px;
+}
+
+.padding--50px{
+    padding-top: 50px;
+}
+
+.padding--top{
+    padding-top: 45%;
+}
+
+/*******padding section********/
+
+
+
+
+/*******position section********/
+.postion--absolute{
+    position:absolute;
+}
+/*******position section********/
+
+
+
+
+/*******Float section********/
+.float--left{
+    float: left;
+}
+
+.overflow--hidden{
+    overflow: hidden;
+}
+
+/*******Float section********/
+
+
+/*******text-alignment section********/
+.text--centre{
+    text-align: center;
+}
+
+
+/*******text-alignment section********/
+
+
+/*******text-color section********/
+.text-color--white{
+    color: white;
+}
+
+
+
+/*******text-color section********/
+
+/*******text-transform section********/
+.uppercase {
+    text-transform: uppercase!important;
+}
+
+.bold--text{
+    font-weight: bold;
+}
+/*******text-transform section********/
+
+/********Font section****************/
+
+.font--style{
+    font-family: Proxima Nova Bold,serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+/********Font section****************/
+
+
+li {
+    display: inline;
+    padding: 10px;
+    
+}
+.menu--settings{
+    
+    bottom: 5%;
+    left: 35%;
+    
+}
+.home a:hover{
+    content: '';
+    left: 0;
+    right: 0;
+    bottom: -.1em;
+    border-bottom: 3px solid;
+    border-color: #ffff;
+}
+
+
+
+/**********about-section***************/
+
+.about-section{
+    height: 700px;
+}
+
+.about-left{
+    background-color: #F7484E;
+    height: 700px;
+    width: 50%;
+}
+.about-right{
+    height: 700px;
+    width: 50%;
+}
+.about-right image{
+    float: left;
+}
+#clear{
+    clear:both;
+}
+
+.subtitled {
+    margin-bottom: 0!important;
+}
+
+/**********about-section***************/
+
+
+
+
+/**********work-section***************/
+
+.work-section{
+    height: 700px;
+}
+.work-right{
+    background-color: #F7484E;
+    height: 700px;
+    width: 50%;
+}
+.work-left{
+    height: 700px;
+    width: 50%;
+}
+
+
+
+
+
+
+/**********work-section***************/
+
+
+/**********contact-section***************/
+
+.contact-section{
+    height: 700px;
+}
+.contact-left{
+    background-color: #292929;
+    height: 700px;
+    width: 50%;
+}
+.contact-right{
+    height: 700px;
+    width: 50%;
+}
+
+#first-p{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#email{
+    text-decoration: none;
+    color:#F7484E;
+} 
+
+#email:hover{
+    bottom: -.1em;
+    border-bottom: 3px solid;
+    border-color:#F7484E ; 
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 17px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  /* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  /* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  /* Twitter */
+.fa-github {
+    background: black;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background-image: linear-gradient(45deg, #F7C652,#F67101,#DD2FA0, #003FDC);
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #0073AF;
+    color: white;
+  }
+/**********contact-section***************/
